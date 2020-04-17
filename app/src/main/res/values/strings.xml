@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mobilprog</string>
+    <string name="name">com.example.mobilprog.name</string>
+    <string name="age">com.example.mobilprog.age</string>
+    <string name="sex">com.example.mobilprog.sex</string>
+    <string name="weight">com.example.mobilprog.weight</string>
+    <string name="height">com.example.mobilprog.height</string>
+    <string name="mod">com.example.mobilprog.mod</string>
+
+</resources>
