@@ -21,7 +21,7 @@ public class Person implements Serializable {
         this.email = email;
         this.username = username;
         this.password = password;
-        this.image = R.drawable.ic_launcher_background;//R.drawable.ic_person_man;
+        this.image = R.drawable.ic_launcher_background;
         this.height = 0;
         this.weight = 0;
         this.age = 0;
@@ -95,12 +95,6 @@ public class Person implements Serializable {
 
     public void setPassword(String password) {
         this.password = password;
-    }
-
-    public int getPicture() { return image; }
-
-    public void setPicture(int image) {
-        this.image = image;
     }
 
     public String getName() { return name; }
