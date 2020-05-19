@@ -6,57 +6,65 @@
     android:layout_height="match_parent"
     tools:context=".MenuActivity">
 
-    <Button
-        android:id="@+id/mailbtn"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
-        android:text="Mail"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/listbtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="172dp"
-        android:text="Listele"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/mailbtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Mail" />
 
-    <Button
-        android:id="@+id/notbtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="284dp"
-        android:text="NOT YARAT"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/listbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Listele" />
 
-    <Button
-        android:id="@+id/setbtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="404dp"
-        android:text="AYARLAR"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/notbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NOT YARAT" />
 
-    <Button
-        android:id="@+id/sensbtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="520dp"
-        android:text="SENSÖR"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/setbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AYARLAR" />
+
+        <Button
+            android:id="@+id/sensbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SENSÖR" />
+
+        <Button
+            android:id="@+id/lksbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOKASYON" />
+
+        <Button
+            android:id="@+id/atask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PROGRESS BAR" />
+
+        <Button
+            android:id="@+id/countbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OTUR/KALK SAYACI" />
+
+        <Button
+            android:id="@+id/alarmbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ALARM" />
+
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
